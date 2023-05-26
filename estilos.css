@@ -25,3 +25,60 @@ header h1
       color: #ffffff;
       font-weight: bold;
 }
+
+#inputs-login
+{
+      display: flex;
+      gap: 15px;
+      align-items: flex-end;
+}
+
+#email
+{
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+      align-items: flex-end;
+}
+
+#password
+{
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+      align-items: flex-end;
+}
+
+#email input[type="text"]
+{
+      padding: 5px;
+      border: 2px solid darkgray;
+      border-radius: 2px;
+      color: gray;
+}
+
+#password input[type="text"]
+{
+      padding: 5px;
+      border: 2px solid darkgray;
+      border-radius: 2px;
+      color: gray;
+}
+
+#btn-login
+{
+      padding: 5px 5px;
+      background-color: #4e79d6;
+      border: 3px solid #365494;
+      color: #ffffff;
+}
+
+#remem label
+{
+      color: rgb(211, 211, 211);
+}
+
+#forgo label
+{
+      color: rgb(211, 211, 211);
+}
