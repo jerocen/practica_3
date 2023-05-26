@@ -140,3 +140,39 @@ main
       gap: 10px;
       flex-direction: column;
 }
+
+#inputs input[type="text"]
+{
+      width: 200px;
+}
+
+#inputs select
+{
+      width: 90px;
+}
+
+#other-options a
+{
+      text-decoration: none;
+}
+
+#why
+{
+      margin-bottom: 20px;
+      display: block;
+}
+
+#btn-signup
+{
+      background-color: #7ab554;
+      padding: 7px;
+      color: #ffffff;
+      border: 3px solid #4d7036;
+      border-radius: 3px;
+      margin-bottom: 20px;
+}
+
+#terms
+{
+      font-size: 13px;
+}
