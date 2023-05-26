@@ -176,3 +176,23 @@ main
 {
       font-size: 13px;
 }
+
+footer
+{
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-around;
+      height: 100px;
+      align-items: flex-start;
+}
+
+#more-options
+{
+      display: flex;
+      gap: 10px;
+}
+
+#more-options a
+{
+      text-decoration: none;
+}
